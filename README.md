@@ -10,6 +10,7 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
+  
   -s S, --sort-number S
                         default sort by file size, display the first number
                         files after sorted by size (-s5)
