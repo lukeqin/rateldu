@@ -83,3 +83,4 @@ sys     0m15.475s
 # Bug and feature
 
 * Display files the size over specified size.
+* Exclude files that match any pattern in FILE, use ncdu --exclude-from FILE.
