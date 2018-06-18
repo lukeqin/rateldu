@@ -82,7 +82,8 @@ sys     0m15.475s
 
 # Bug and feature
 
-* Exclude file from summary.
-128.00 TB /proc/kcore
+* Exclude /proc/kcore file from summary.
+
+128.00 TB /proc/kcore 
 
 * Display files the size over specified size.
