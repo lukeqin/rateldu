@@ -9,6 +9,7 @@ import argparse
 import os
 import math
 import json
+import sys
 
 
 #call ncdu command
@@ -125,7 +126,7 @@ def convertBytes(byte, sizetype):
 def main():
     #check ncdu command
     if not isncdu():
-        exit(1)
+        sys.exit(1)
     
     #get parameters from command line
     args = argparseconn()
@@ -141,12 +142,12 @@ def main():
     #get ncdu data, dealing with exclude, delete file name is /proc/kcore from ncdudata
     ncdudata = ncdu(pwd, exclude)
     if not ncdudata:
-        exit(2)
+        sys.exit(2)
 
     #sort data
     sortncdata = sortdata(ncdudata)
     if not sortncdata:
-        exit(3)
+        sys.exit(3)
 
     #humanreadable
     sizetype = ['B', 'KB', 'MB', 'GB', 'TB']
