@@ -80,6 +80,17 @@ real    2m27.138s
 user    1m30.821s
 sys     0m15.475s
 
+5. 9713047 files.
+
+time ./rateldu-centos6 -u -olog -x data1 /
+Namespace(d='/', e='data1', o='log', s=0, u=True)
+
+Toal file: 9713047
+
+real    9m5.072s
+user    3m23.103s
+sys     0m28.346s
+
 # Bug and feature
 
 * Display files the size over specified size.
