@@ -69,3 +69,20 @@ Toal file: 1367
 real    0m0.152s
 user    0m0.104s
 sys     0m0.028s
+
+4. 6688192 files, file size is 535MB.
+
+Namespace(d='/', e=None, o='log', s=0, u=True)
+
+Toal file: 6688192
+
+real    2m27.138s
+user    1m30.821s
+sys     0m15.475s
+
+# Bug and feature
+
+* Exclude file from summary.
+128.00 TB /proc/kcore
+
+* Display files the size over specified size.
