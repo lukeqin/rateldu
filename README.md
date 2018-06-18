@@ -42,6 +42,7 @@ SIZE is an integer and optional unit (example: 10M is 10*1024*1024). Units are K
 
 # Test
 1. 5212708 files.
+
 time ./rateldu -u / -x /var -o log 
 Namespace(d='/', e='/var', o='log', s=0, u=True)
 
@@ -52,6 +53,7 @@ user    1m6.264s
 sys     0m9.238s
 
 2. 219395 files.
+
 Namespace(d='/', e=None, o='log', s=0, u=True)
 
 Toal file: 219395
@@ -61,6 +63,7 @@ user    0m4.003s
 sys     0m0.388s
 
 3. 1367 files.
+
 Toal file: 1367
 
 real    0m0.152s
