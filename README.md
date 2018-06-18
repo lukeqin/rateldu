@@ -4,12 +4,12 @@ Summarize disk usage of each FILE of linux platform, based on ncdu command, defa
 
 # Install
 * Install ncdu tool.
-1. CentOS 6 and CentOS 7: yum install -y ncdu
-2. https://dev.yorhel.nl/ncdu
+1. CentOS 6 and CentOS 7:  yum install -y ncdu
+2. Other linux: https://dev.yorhel.nl/ncdu
 
 * Install rateldu.
-1. Install python3, and argparse for python3.
-2. Use binary file builed by PyInstaller for CentOS 6 and 7, download from https://github.com/lukeqin/rateldu/releases
+1. python3 rateldu.py: Install python3, and argparse for python3.
+2. ./rateldu: Use binary file builed by PyInstaller for CentOS 6 and 7, download from https://github.com/lukeqin/rateldu/releases
 
 # Usage
 usage: rateldu [directory] [options]
