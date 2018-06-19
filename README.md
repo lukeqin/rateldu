@@ -18,7 +18,7 @@ Summarize disk usage of each FILE, based on ncdu command, default unit is Byte. 
 
 positional arguments:
 
-  d                     test
+  d                     directory
 
 optional arguments:
 
