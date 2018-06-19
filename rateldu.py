@@ -108,7 +108,7 @@ def argparseconn():
         parser.add_argument("-o", "--output", action='store', dest="o", default=None, help='export scanned directory to FILE')
         parser.add_argument("-x", "--exclude", action='store', dest="e", default=None, help='exclude files that match PATTERN')
         currentpwd = os.getcwd()
-        parser.add_argument("d", nargs='?', default=currentpwd, help='test')
+        parser.add_argument("d", nargs='?', default=currentpwd, help='directory')
         parser.add_argument('-v', '--version', action='version', version='%(prog)s 1.0')    
         args = parser.parse_args()
         return args
